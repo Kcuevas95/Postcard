@@ -1,0 +1,65 @@
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	background-image: url(https://www.vhv.rs/viewpic/mRJoRb_sunflower-png-aesthetic-aesthetic-sunflower-png-transparent-png/);
+}
+
+.postcard-header {
+	display: flex;
+}
+
+img {
+	height: 50px;
+	width: 50px;
+}
+
+h1 {
+	font-family: Caveat;
+	font-size: 40px;
+	margin: 0px 170px 0px 0px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+p {
+	font-family: Caveat;
+	font-weight: 800;
+	font-size: 15px;
+	margin: 20px 10px 20px 5px;
+}
+
+.body-right {
+	margin: 20px 10px 20px 5px;
+}
+
+input {
+	border-bottom: 1px solid black;
+}
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	margin: 10px;
+	background: dodgerblue;
+	padding: bottom;
+	border-radius: 5px;
+	height: 25px;
+}
+
+button:hover {
+	background-color: yellow;
+}
